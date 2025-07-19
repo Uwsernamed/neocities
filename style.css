@@ -1,9 +1,37 @@
 /* CSS is how you can add style to your website, such as colors, fonts, and positioning of your
    HTML content. To learn how to do something, just try searching Google for questions like
    "how to change link color." */
+/* maple-mono-latin-400-normal */
+@font-face {
+	font-family: 'Maple Mono';
+	font-style: normal;
+	font-display: swap;
+	font-weight: 400;
+	src: url(https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@latest/latin-400-normal.woff2) format('woff2'), url(https://cdn.jsdelivr.net/fontsource/fonts/maple-mono@latest/latin-400-normal.woff) format('woff');
+}
 
 body {
-  background-color: white;
-  color: black;
-  font-family: Verdana;
+	/*background-color: white;*/
+	background-image: url("heDe.jpg");
+	color: rgb(0,0,0);
+	font-family: Maple Mono;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-align: center;
+	font-size: 80px;
+	color: rgb(255,255,255);
+	background: rgba(60, 70, 80, 0.8)
+}
+
+div.title { 
+	width:90%;
+	margin:auto;
+}
+
+div.entry {
+	background: rgba(255, 255, 255, 1);
+	padding: 10px;
+
 }
